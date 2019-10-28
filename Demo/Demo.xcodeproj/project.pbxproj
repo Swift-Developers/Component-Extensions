@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		9B6BD0C4235ABD4A00EF5CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6BD0C2235ABD4A00EF5CA3 /* Main.storyboard */; };
 		9B6BD0C6235ABD4C00EF5CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6BD0C5235ABD4C00EF5CA3 /* Assets.xcassets */; };
 		9B6BD0C9235ABD4C00EF5CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6BD0C7235ABD4C00EF5CA3 /* LaunchScreen.storyboard */; };
+		9BA0E1FA2366D3CA00C253CD /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = 9BA0E1F92366D3CA00C253CD /* Extensions */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA0E1FA2366D3CA00C253CD /* Extensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 			children = (
 				9B6BD0BB235ABD4A00EF5CA3 /* Demo */,
 				9B6BD0BA235ABD4A00EF5CA3 /* Products */,
+				9BA0E1F82366D3CA00C253CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,13 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		9BA0E1F82366D3CA00C253CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = Demo;
+			packageProductDependencies = (
+				9BA0E1F92366D3CA00C253CD /* Extensions */,
+			);
 			productName = Demo;
 			productReference = 9B6BD0B9235ABD4A00EF5CA3 /* Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -341,6 +354,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9BA0E1F92366D3CA00C253CD /* Extensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Extensions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9B6BD0B1235ABD4A00EF5CA3 /* Project object */;
 }
